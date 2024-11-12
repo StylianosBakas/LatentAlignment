@@ -1,2 +1,9 @@
-# LatentAlignment
-Latent Alignment in Deep Learning Models for EEG Decoding
+# Latent Alignment in Deep Learning Models for EEG Decoding
+Stylianos Bakas, Siegfried Ludwig, Dimitrios A. Adamos, Nikolaos Laskaris, Yannis Panagakis, Stefanos Zafeiriou
+
+Objective: Brain-computer interfaces (BCIs) face a significant challenge due to variability in EEG signals across individuals. While recent approaches have focused on standardizing input signal distributions, we propose that aligning distributions in the deep learning model's feature space is more effective for classification.
+Approach: We introduce the Latent Alignment method, which won the Benchmarks for EEG Transfer Learning (BEETL) competition. This method can be formulated as a deep set architecture applied to trials from a given subject, introducing deep sets to EEG decoding for the first time. We compare Latent Alignment to recent statistical domain adaptation techniques, carefully considering class-discriminative artifacts and the impact of class distributions on classification performance.
+Main Results: Our experiments across motor imagery, sleep stage classification, and P300 event-related potential tasks validate Latent Alignment's effectiveness. We identify a trade-off between improved classification accuracy when alignment is performed at later modeling stages and increased susceptibility to class imbalance in the trial set used for statistical computation.
+Significance: Latent Alignment offers consistent improvements to subject-independent deep learning models for EEG decoding when relevant practical considerations are addressed. This work advances our understanding of statistical alignment techniques in EEG decoding and provides insights for their effective implementation in real-world BCI applications, potentially facilitating broader use of BCIs in healthcare, assistive technologies, and beyond.
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
